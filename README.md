@@ -26,6 +26,9 @@ In the case where subsets fail to be correlated successfully the function CSTran
 ### Obtaining DIC Challenge Image Sets:
 In order to use this runme.m file Samples 1, 2 and 3 of the DIC challenge must be downloaded from the SEM website https://sem.org/2ddic. Thereafter they need to be unzipped and the unzipped folders of each sample need to be placed in a folder within the working directory named "DIC Challenge 1.0". (Alternatively you can save the Sample images to a location of your choice and modify the variable "ImageLocation", of line 99, to have the appropriate string for the full path to the folder containing the images)
 
+## License:
+Note that use of this code (ADIC2D and all its sub-functions) falls under the GNU GENERAL PUBLIC LICENSE Version 3. Furthermore, note that in the case of using this code for works related to publications (scientific or otherwise) requires citing of the source paper (citation given below).
+
 ## Citing ADIC2D:
 Atkinson, D.; Becker, T. A 117 Line 2D Digital Image Correlation Code Written in MATLAB. Remote Sens. 2020, 12, 2906.
 Paper can be accessed at: https://doi.org/10.3390/rs12182906
