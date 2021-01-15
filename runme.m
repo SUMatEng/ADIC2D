@@ -29,11 +29,11 @@ end
 
 ProcData=AddGridFormat(ProcData); % add gridded matrices for display purposes
 figure
-surf(ProcData(4).PosX_grid,ProcData(4).PosY_grid,ProcData(4).DispX_grid) % display displacement in the x direction for the 4th image
+surf(ProcData(4).POSX,ProcData(4).POSY,ProcData(4).UX) % display displacement in the x direction for the 4th image
 xlabel('x')
 ylabel('y')
 figure
-surf(ProcData(4).PosX_grid,ProcData(4).PosY_grid,ProcData(4).DispY_grid) % display displacement in the y direction for the 4th image
+surf(ProcData(4).POSX,ProcData(4).POSY,ProcData(4).UY) % display displacement in the y direction for the 4th image
 xlabel('x')
 ylabel('y')
 
@@ -69,7 +69,7 @@ algorithm={'ADIC2D'};
 % display the displacement error metrics in a table
 table(algorithm,bias,variance,RMSE)
 
-save('Results.mat','ProcData'); % uncomment this line to save the ProcData results for later use
+% save('Results.mat','ProcData'); % uncomment this line to save the ProcData results for later use
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

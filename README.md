@@ -13,10 +13,10 @@ The correlation aspect of ADIC2D can be run using parallel processing by changin
 
 ### Displaying computed displacements:
 ProcData stores the results in a vector format. In order to display the displacement and position information of the subsets easily a gridded format is necessary. The function AddGridFormat accepts ProcData and adds fields with gridded matrices for the purpose of displaying the results. More specifically, AddGridFormat adds the following fields:
-* PD(d).PosX_grid - which for image d stores the x-positions of the subsets (in the world CS) in a gridded format
-* PD(d).PosY_grid - which for image d stores the y-positions of the subsets (in the world CS) in a gridded format
-* PD(d).DispX_grid - which for image d stores the x-displacements of the subsets (in the world CS) in a gridded format
-* PD(d).DispY_grid - which for image d stores the y-displacements of the subsets (in the world CS) in a gridded format
+* PD(d).POSX 	- which for image d stores the x-positions of the subsets (in the world CS) in a gridded format
+* PD(d).POSY 	- which for image d stores the y-positions of the subsets (in the world CS) in a gridded format
+* PD(d).UX 		- which for image d stores the x-displacements of the subsets (in the world CS) in a gridded format
+* PD(d).UY 		- which for image d stores the y-displacements of the subsets (in the world CS) in a gridded format
 
 This function is called as shown on line 30 of runme.m and the displacements can be plotted as shown on lines 31-38.
 
