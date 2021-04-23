@@ -29,6 +29,9 @@ In order to use this runme.m file Samples 1, 2 and 3 of the DIC challenge must b
 ## License:
 Note that use of this code (ADIC2D and all its sub-functions) falls under the GNU GENERAL PUBLIC LICENSE Version 3. Furthermore, note that in the case of using this code for works related to publications (scientific or otherwise) requires citing of the source paper (citation given below).
 
+## Note:
+The stopping criterion for the second-order shape function, given in Equation (23) of the source paper (cited below), is incorrect (apologies if this has caused any inconvenience). The code has been updated to contain the correct form of the equation (line 20 SFExpressions).
+
 ## Citing ADIC2D:
 Atkinson, D.; Becker, T. A 117 Line 2D Digital Image Correlation Code Written in MATLAB. Remote Sens. 2020, 12, 2906.
 Paper can be accessed at: https://doi.org/10.3390/rs12182906
